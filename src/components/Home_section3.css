@@ -1,0 +1,48 @@
+.h-section3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.watch {
+  padding: 20px 5px;
+  position: relative;
+}
+.watch-logo {
+  position: absolute;
+
+  top: 23%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.imac {
+  padding: 20px 5px;
+  position: relative;
+}
+
+.m1-logo {
+  position: absolute;
+  top: 23%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.m1-logo img {
+  width: 100%;
+}
+
+@media screen and (max-width: 930px) {
+  .h-section3 {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .watch img {
+    width: 100%;
+  }
+
+  .imac img {
+    width: 100%;
+  }
+ 
+}

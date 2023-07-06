@@ -1,0 +1,14 @@
+.promotion {
+    background-color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+@media screen and (max-width: 600px) {
+    .promotion{
+        padding: 10px  15px;
+        font-size: 12px;
+        text-align: center;
+    }
+  }

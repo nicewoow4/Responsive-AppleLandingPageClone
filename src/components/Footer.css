@@ -1,0 +1,137 @@
+.footer-bg {
+  background-color: #f5f5f7;
+}
+
+.ft-content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.ft-content p {
+  color: #6e6e73;
+  font-weight: 300;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-container ul li {
+  font-size: 15px;
+  list-style: none;
+  padding: 8px;
+}
+
+.flex-container ul li a {
+  font-size: 15px;
+  list-style: none;
+  text-decoration: none;
+  color: #6e6e73;
+}
+
+.flex-container ul li a:hover {
+  font-size: 15px;
+  list-style: none;
+  text-decoration: underline;
+  color: #6e6e73;
+}
+
+.ft-mobile-menu {
+  display: none;
+}
+.ft-mobile li {
+  list-style: none;
+}
+
+
+@media screen and (max-width: 970px) { 
+  .ft-content p {
+    padding: 0 40px;
+  }
+}
+
+ul hr{
+  display: none;
+}
+
+@media screen and (max-width: 860px) {
+  .ft-mobile-menu {
+    display: block;
+  }
+  .flex-container {
+    flex-direction: column;
+  }
+  .ft-mobile {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .ft-menu-nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    left: -100%;
+    padding-top: 0px;
+    padding-left: 45px;
+  }
+
+  .ft-menu-nav.active {
+    background-color: #f5f5f7;
+    left: 0;
+  }
+  .ft-manu-link {
+    display: flex;
+  }
+  .list {
+    padding-bottom: 20px;
+  }
+
+  /* ตัวที่2footer*/
+  .ft-menu-nav2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    left: -100%;
+    padding-top: 10px;
+  }
+
+  .ft-manu-link2 {
+    display: flex;
+  }
+
+  /* ตัวที่3footer*/
+  .ft-menu-nav3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    left: -100%;
+    padding-top: 10px;
+  }
+
+  .ft-menu-nav3.active3 {
+    background-color: #f5f5f7;
+    left: 0;
+  }
+  .ft-manu-link3 {
+    display: flex;
+  }
+
+  ul hr{
+    display: block;
+  }
+}
+
+
+.copy-r {
+  display: flex;
+  justify-content: space-between;
+}
